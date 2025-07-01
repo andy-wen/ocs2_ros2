@@ -9,7 +9,7 @@ set(dependencies
   ocs2_core
   ocs2_robotic_tools
   ocs2_pinocchio_interface
-  hpp-fcl
+  coal
   pinocchio
 )
 
@@ -20,7 +20,7 @@ find_package(ocs2_pinocchio_interface REQUIRED)
 
 find_package(PkgConfig REQUIRED)
 find_package(pinocchio REQUIRED)
-find_package(hpp-fcl REQUIRED)
+find_package(coal REQUIRED)
 # requires liboctomap-dev and libassimp-dev
 find_package(Boost REQUIRED COMPONENTS
   system
@@ -48,7 +48,7 @@ include_directories(
   include
   ${EIGEN3_INCLUDE_DIRS}
   ${pinocchio_INCLUDE_DIRS}
-  ${hpp-fcl_INCLUDE_DIRS}
+  ${coal_INCLUDE_DIRS}
 )
 
 # ocs2 pinocchio interface library
