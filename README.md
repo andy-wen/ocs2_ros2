@@ -17,9 +17,11 @@ The OCS2 library is written in C++17. It is tested under Ubuntu 22.04 with libra
 * Boost C++ (v1.74)
 * For rigid multi-body dynamics library and self collision support clone Pinocchio and Coal into your workspace
 ```
-# install pinocchio
+# clone ocs2
+git clone https://github.com/andy-wen/ocs2_ros2.git
+# clone pinocchio
 git clone --recurse-submodules https://github.com/andy-wen/pinocchio.git
-# install coal
+# clone coal
 git clone --recurse-submodules https://github.com/andy-wen/coal.git
 ```
 * For various robotic assets used in OCS2 unit tests and the robotic examples
