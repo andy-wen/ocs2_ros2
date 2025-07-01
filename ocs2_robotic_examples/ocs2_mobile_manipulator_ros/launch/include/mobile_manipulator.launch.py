@@ -95,7 +95,7 @@ def generate_launch_description():
             executable='mobile_manipulator_target',
             name='mobile_manipulator_target',
             prefix="",
-            condition=launch.conditions.UnlessCondition(LaunchConfiguration("rviz")),
+            #condition=launch.conditions.UnlessCondition(LaunchConfiguration("rviz")),
             output='screen',
             parameters=[
                 {
