@@ -7,7 +7,7 @@ project(ocs2_pinocchio_interface)
 set(dependencies
   ocs2_core
   ocs2_robotic_tools
-  hpp-fcl
+  coal
   pinocchio
   urdf
   urdfdom
@@ -20,7 +20,7 @@ find_package(urdf REQUIRED)
 find_package(urdfdom REQUIRED)
 find_package(urdfdom_headers REQUIRED)
 
-find_package(hpp-fcl REQUIRED)
+find_package(coal REQUIRED)
 find_package(pinocchio REQUIRED) 
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)
