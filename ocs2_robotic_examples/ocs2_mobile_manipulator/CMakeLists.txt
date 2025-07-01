@@ -15,7 +15,7 @@ set(dependencies
   ocs2_self_collision
   Boost
   pinocchio
-  hpp-fcl
+  coal
 )
 
 find_package(ament_cmake REQUIRED)
@@ -35,7 +35,7 @@ find_package(Boost REQUIRED COMPONENTS
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(pinocchio REQUIRED pinocchio)
-pkg_check_modules(hpp-fcl REQUIRED hpp-fcl)
+pkg_check_modules(coal REQUIRED coal)
 
 find_package(Eigen3 3.3 REQUIRED NO_MODULE)
 
