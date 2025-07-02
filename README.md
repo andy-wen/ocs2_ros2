@@ -38,7 +38,7 @@ sudo apt-get install ros-humble-grid-map-cv ros-humble-grid-map-msgs ros-humble-
 * build
 ```
 source /opt/ros/humble/setup.bash
-colcon build --parallel-workers 32 --packages-up-to ocs2_mobile_manipulator_ros --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
+colcon build --parallel-workers 8 --packages-up-to ocs2_mobile_manipulator_ros --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
 ```
 * launch
 ```
