@@ -1,10 +1,7 @@
 # OCS2_ROS2 Toolbox
 
 ## Summary
-OCS2_ROS2 is developed based on [OCS2](https://github.com/leggedrobotics/ocs2), and features that are not supported at the moment:
-
-* ocs2_mpcnet
-* ocs2_doc
+OCS2_ROS2 is developed based on [OCS2](https://github.com/leggedrobotics/ocs2)
 
 ## Installation
 ### Prerequisites
@@ -36,11 +33,11 @@ git clone https://github.com/zhengxiang94/plane_segmentation_ros2.git
 ```
 * others
 ```
-sudo apt-get install ros-iron-grid-map-cv ros-iron-grid-map-msgs ros-iron-grid-map-ros ros-iron-grid-map-sdf libmpfr-dev libpcap-dev libglpk-dev
+sudo apt-get install ros-humble-grid-map-cv ros-humble-grid-map-msgs ros-humble-grid-map-ros ros-humble-grid-map-sdf libmpfr-dev libpcap-dev libglpk-dev
 ```
 * build
 ```
-source /opt/ros/iron/setup.bash
+source /opt/ros/humble/setup.bash
 colcon build --parallel-workers 32 --packages-up-to ocs2_mobile_manipulator_ros --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
 ```
 * launch
