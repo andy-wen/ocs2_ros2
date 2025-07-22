@@ -1,11 +1,11 @@
-# OCS2_ROS2 Toolbox
+# OCS2 ROS2 + Coal + Pinocchio
 
 ## Summary
-OCS2_ROS2 is developed based on [OCS2](https://github.com/leggedrobotics/ocs2)
+OCS2 ROS2 is developed based on [OCS2](https://github.com/leggedrobotics/ocs2)
 
 ## Installation
 ### Prerequisites
-The OCS2 library is written in C++17. It is tested under Ubuntu 22.04 with library versions as provided in the package sources.
+The OCS2 is tested under Ubuntu 22.04 with library versions as provided in the package sources.
 
 ### Dependencies
 * C++ compiler with C++17 support
