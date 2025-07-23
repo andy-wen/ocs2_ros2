@@ -9,7 +9,7 @@ The OCS2 is tested under Ubuntu 22.04 with library versions as provided in the p
 
 ### Dependencies
 * C++ compiler with C++17 support
-* ros2 iron
+* ros2 humble
 * Eigen (v3.4)
 * Boost C++ (v1.74)
 * For rigid multi-body dynamics library and self collision support clone Pinocchio and Coal into your workspace
