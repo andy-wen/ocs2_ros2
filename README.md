@@ -33,7 +33,7 @@ git clone https://github.com/zhengxiang94/plane_segmentation_ros2.git
 ```
 * others
 ```
-sudo apt-get install ros-humble-grid-map-cv ros-humble-grid-map-msgs ros-humble-grid-map-ros ros-humble-grid-map-sdf libmpfr-dev libpcap-dev libglpk-dev
+sudo apt-get install ros-humble-grid-map-cv ros-humble-grid-map-msgs ros-humble-grid-map-ros ros-humble-grid-map-sdf libmpfr-dev libpcap-dev libglpk-dev ros-humble-octomap
 ```
 * build
 ```
